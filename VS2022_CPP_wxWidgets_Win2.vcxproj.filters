@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="controls.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="form1.cpp">
+      <Filter>Файлы форм</Filter>
+    </ClCompile>
+    <ClCompile Include="form2.cpp">
+      <Filter>Файлы форм</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="form1.h">
+      <Filter>Файлы форм</Filter>
+    </ClInclude>
+    <ClInclude Include="form2.h">
+      <Filter>Файлы форм</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+    <None Include="form1.fbp">
+      <Filter>Файлы форм</Filter>
+    </None>
+    <None Include="form2.fbp">
+      <Filter>Файлы форм</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{3014e129-5123-418a-b619-34b1dcce73a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{244970f9-cb62-4b10-af4c-3062e8b4548f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы форм">
+      <UniqueIdentifier>{9ae011f5-c9e7-4708-8cdd-17a059f58e7c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc">
+      <Filter>Файлы ресурсов</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

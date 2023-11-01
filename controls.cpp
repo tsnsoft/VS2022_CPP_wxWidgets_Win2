@@ -1,5 +1,5 @@
-#include "main.h"
-#include <wx/msgdlg.h>
+#include "main.h" // Подключение заголовочного файла
+#include <wx/msgdlg.h> // Подключение библиотеки для вывода сообщений
 
 wxString form1_data; // ОБЩАЯ ПЕРЕМЕННАЯ
 
