@@ -26,10 +26,6 @@ Frame1::Frame1( wxWindow* parent, wxWindowID id, const wxString& title, const wx
 	m_button1 = new wxButton( this, wxID_ANY, _("ВОЙТИ"), wxDefaultPosition, wxDefaultSize, 0 );
 	mainSizer->Add( m_button1, 0, wxALL, 5 );
 
-	m_staticText2 = new wxStaticText( this, wxID_ANY, wxEmptyString, wxDefaultPosition, wxDefaultSize, 0 );
-	m_staticText2->Wrap( -1 );
-	mainSizer->Add( m_staticText2, 0, wxALL, 5 );
-
 
 	this->SetSizer( mainSizer );
 	this->Layout();

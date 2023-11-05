@@ -39,7 +39,6 @@ class Frame2 : public wxFrame
 		wxStaticBitmap* m_bitmap1;
 		wxButton* m_button1;
 		wxButton* m_button2;
-		wxStaticText* m_staticText2;
 
 		// Virtual event handlers, override them in your derived class
 		virtual void OnCloseFrame( wxCloseEvent& event ) { event.Skip(); }
